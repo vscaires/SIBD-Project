@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 32px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 20px 30px;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+    background-color: #7ec5e6;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 1.0s ease-in-out;
+    display: inline-block;
+  }
+  
+  input[type=text]:focus {
+    width: 20%;
+  }
+
+  td,
+th {
+    border: 1px solid rgb(88, 88, 88);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(odd) {
+    background-color: #f1ff33;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: rgb(255, 255, 255);
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+main {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+main .forms{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+main .tables{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+main .table1{
+    width: 25%;
+}
+main .table2{
+    width: 25%;
+}
+main .table3{
+    width: 25%;
+}
+main .table4{
+    width: 25%;
+}

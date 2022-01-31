@@ -1,0 +1,20 @@
+main {
+    max-width: 80%;
+}
+main .forms{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+main .table1{
+    width: 75%;
+}
+main .table2{
+    width: 25%;
+}
+main .table3{
+    width: 0%;
+}
+main .table4{
+    width: 0%;
+}
